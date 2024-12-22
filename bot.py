@@ -54,10 +54,10 @@ async def Lazy_start():
     bot_info = await LazyPrincessBot.get_me()
     LazyPrincessBot.username = bot_info.username
     await initialize_clients()
-    ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
-    ssl_context.load_cert_chain("ssl/vmi2293858.contaboserver.net.crt", "ssl/vmi2293858.contaboserver.net.key")
+    #ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+    #ssl_context.load_cert_chain("ssl/vmi2293858.contaboserver.net.crt", "ssl/vmi2293858.contaboserver.net.key")
 
-    ssl_context.load_verify_locations("ssl/vmi2293858.contaboserver.net.ca")
+    #ssl_context.load_verify_locations("ssl/vmi2293858.contaboserver.net.ca")
     for name in files:
         with open(name) as a:
             patt = Path(a.name)
@@ -91,7 +91,7 @@ async def Lazy_start():
     app = web.AppRunner(await web_server())
     await app.setup()
     bind_address = "0.0.0.0"
-    await web.TCPSite(app, bind_address, PORT, ssl_context=ssl_context).start()
+    await web.TCPSite(app, bind_address, PORT).start()
     await idle()
 
 
