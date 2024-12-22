@@ -52,7 +52,7 @@ async def start(client, message):
                     InlineKeyboardButton('👻 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 👻', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                ], [
                     InlineKeyboardButton('👨‍💻support group', url="https://telegram.me/akDiscussion_group"),
-                    InlineKeyboardButton('🎬 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+A4tVZCXbK2s2YzJl)
+                    InlineKeyboardButton('🎬 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+A4tVZCXbK2s2YzJl')
                ], [
                     InlineKeyboardButton('⛅ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👽 Aʙᴏᴜᴛ', callback_data='about')
