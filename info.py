@@ -81,7 +81,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 FIRST_CHANNEL = environ.get('FIRST_CHANNEL', '-1002208017487')
 SECOND_CHANNEL = environ.get('SECOND_CHANNEL', '-1002208017487')
-FQDN = environ.get('FQDN', 'vmi2293858.contaboserver.net:5000')
+FQDN = environ.get('FQDN', '')
 first_channel = environ.get('FIRST_CHANNEL', '-1002208017487')
 second_channel = environ.get('SECOND_CHANNEL', '-1002208017487')
 VID1 = environ.get('VID1', 'https://t.me/vegamoviesnewin/277')
@@ -102,8 +102,8 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 
-BIND_ADDRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '158.220.123.242'))
-FQDN = str(getenv('FQDN', 'vmi2293858.contaboserver.net:5000')) if not ON_HEROKU else APP_NAME + '.herokuapp.com'
+BIND_ADDRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', ''))
+FQDN = str(getenv('FQDN', '')) if not ON_HEROKU else APP_NAME + '.herokuapp.com'
 URL = f"https://{FQDN}/" if ON_HEROKU or NO_PORT else f"http://{FQDN}/"
 
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
