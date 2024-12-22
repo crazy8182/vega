@@ -1,4 +1,3 @@
-kenimport re
 from os import environ,getenv
 from Script import script 
 
