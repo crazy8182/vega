@@ -85,7 +85,7 @@ FQDN = environ.get('FQDN', 'vmi2293858.contaboserver.net:5000')
 first_channel = environ.get('FIRST_CHANNEL', '-1002208017487')
 second_channel = environ.get('SECOND_CHANNEL', '-1002208017487')
 VID1 = environ.get('VID1', 'https://t.me/vegamoviesnewin/277')
-ENABLE_UPSTREAM_UPDATE = is_enabled((environ.get('ENABLE_UPSTREAM_UPDATE', "True")), True)
+ENABLE_UPSTREAM_UPDATE = is_enabled((environ.get('ENABLE_UPSTREAM_UPDATE', "False")), True)
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 
