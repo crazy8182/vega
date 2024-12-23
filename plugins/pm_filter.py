@@ -869,6 +869,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+        
         try:
             if settings['is_shortlink'] and clicked not in PREMIUM_USER:
                 if clicked == typed:
