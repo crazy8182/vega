@@ -190,10 +190,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
-
+    CAPTION = """ 📂 <i><a href="https://t.me/vegamoviesnewin">{filename}
+{size}
+🚀 ᴊᴏɪɴ  ➥「 @vegamoviesnewin 」 
+•─────────★•🥰•★────────•</a></i>\n\n"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
