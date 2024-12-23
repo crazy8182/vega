@@ -38,13 +38,13 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton("🎥Movie group", url="https://t.me/+Qn6fthcb7wI0ZTk1"),
-                    InlineKeyboardButton("👨‍💻support group ", url="https://t.me/Infinity_XBotz_support")                                                  
+                    InlineKeyboardButton("🎥Movie group", url="https://t.me/+A4tVZCXbK2s2YzJl"),
+                    InlineKeyboardButton("👨‍💻support group ", url="https://t.me/akDiscussion_group")                                                  
                  ],[
-                    InlineKeyboardButton("🗃️How to download", url="https://t.me/Infinity_XBotz/5"),                                                  
-                    InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Madhuri_niranjan")                                                     
+                    InlineKeyboardButton("🗃️How to download", url="https://t.me/vegamoviesnewin/277"),                                                  
+                    InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Mahesh8182")                                                     
                  ],[
-                    InlineKeyboardButton("Update channel", url="https://t.me/Infinity_XBotz"),
+                    InlineKeyboardButton("Update channel", url="https://t.me/vegamoviesnewin"),
                     InlineKeyboardButton('Movie Cʜᴀɴɴᴇʟ', url=CHNL2_LNK)
                  ],[
                     InlineKeyboardButton('⚡Fast DL / 🖥️Watch OL (Tutorial❓)', url=VID1)
@@ -67,13 +67,13 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title, u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton("🎥Movie group", url="https://t.me/+Qn6fthcb7wI0ZTk1"),
-                                                                           InlineKeyboardButton("👨‍💻support group ", url="https://t.me/Infinity_XBotz_support")
+                                                                           InlineKeyboardButton("🎥Movie group", url="https://t.me/+A4tVZCXbK2s2YzJl"),
+                                                                           InlineKeyboardButton("👨‍💻support group ", url="https://t.me/akDiscussion_group")
                                                                         ],[
-                                                                           InlineKeyboardButton("🗃️How to download", url="https://t.me/Infinity_XBotz/5"),
-                                                                           InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Madhuri_niranjan")
+                                                                           InlineKeyboardButton("🗃️How to download", url="https://t.me/vegamoviesnewin/277"),
+                                                                           InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Mahesh8182")
                                                                         ],[
-                                                                           InlineKeyboardButton("💓Update channel💓", url="https://t.me/Infinity_XBotz"),
+                                                                           InlineKeyboardButton("💓Update channel💓", url="https://t.me/vegamoviesnewin"),
                                                                            InlineKeyboardButton('❤️Movie Cʜᴀɴɴᴇʟ❤️', url=CHNL2_LNK)
                                                                         ],[
                                                                            InlineKeyboardButton('⚡Fast DL / 🖥️Watch OL (Tutorial❓)', url=VID1)
@@ -101,13 +101,13 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                    InlineKeyboardButton("🎥Movie group", url="https://t.me/+Qn6fthcb7wI0ZTk1"),
-                    InlineKeyboardButton("👨‍💻support group ", url="https://t.me/Infinity_XBotz_support")                                                  
+                    InlineKeyboardButton("🎥Movie group", url="https://t.me/+A4tVZCXbK2s2YzJl"),
+                    InlineKeyboardButton("👨‍💻support group ", url="https://t.me/akDiscussion_group")                                                  
                  ],[
-                    InlineKeyboardButton("🗃️How to download", url="https://t.me/Infinity_XBotz/5"),                                                  
-                    InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Madhuri_niranjan")                                                     
+                    InlineKeyboardButton("🗃️How to download", url="https://t.me/vegamoviesnewin/277"),                                                  
+                    InlineKeyboardButton("😇Bot owner😇 ", url="https://t.me/Mahesh8182")                                                     
                  ],[
-                    InlineKeyboardButton("Update channel", url="https://t.me/Infinity_XBotz"),
+                    InlineKeyboardButton("Update channel", url="https://t.me/vegamoviesnewin"),
                     InlineKeyboardButton('Movie Cʜᴀɴɴᴇʟ', url=CHNL2_LNK)
                  ],[
                     InlineKeyboardButton('⚡Fast DL / 🖥️Watch OL (Tutorial❓)', url=VID1)
