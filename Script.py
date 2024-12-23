@@ -190,7 +190,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ 📂 <i><a href="https://t.me/vegamoviesnewin">{filename}
+    CAPTION =""" 📂 <i><a href="https://t.me/vegamoviesnewin">{filename}
 {size}
 🚀 ᴊᴏɪɴ  ➥「 @vegamoviesnewin 」 
 •─────────★•🥰•★────────•</a></i>\n\n"""
