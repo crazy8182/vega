@@ -304,7 +304,7 @@ async def start(client, message):
                         InlineKeyboardButton('👨‍💻Support group', url="https://t.me/akDiscussion_group"),
                         InlineKeyboardButton('🎥Movie group', url="https://t.me/+A4tVZCXbK2s2YzJl")
                     ], [
-                        InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Madhuri_niranjan"),                        
+                        InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Mahesh8182"),                        
                         InlineKeyboardButton('Update channel', url=CHNL_LNK)
                     ], [
                         InlineKeyboardButton('Movie Cʜᴀɴɴᴇʟ', url=CHNL2_LNK)
@@ -332,7 +332,7 @@ async def start(client, message):
                         InlineKeyboardButton('👨‍💻Support group', url="https://t.me/akDiscussion_group"),
                         InlineKeyboardButton('🎥Movie group', url="https://t.me/+A4tVZCXbK2s2YzJl")
                     ], [
-                        InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Madhuri_niranjan"),                        
+                        InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Mahesh8182"),                        
                         InlineKeyboardButton('Update channel', url=CHNL_LNK)
                     ], [
                         InlineKeyboardButton('Movie Cʜᴀɴɴᴇʟ', url=CHNL2_LNK)
@@ -437,7 +437,7 @@ async def start(client, message):
                             InlineKeyboardButton('👨‍💻Support group', url="https://t.me/akDiscussion_group"),
                             InlineKeyboardButton('🎥Movie group', url="https://t.me/+A4tVZCXbK2s2YzJl")
                        ],[
-                            InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Madhuri_niranjan"),                        
+                            InlineKeyboardButton('😇Bot owner😇', url="https://telegram.me/Mahesh8182"),                        
                             InlineKeyboardButton('Update channel', url=CHNL_LNK)
                        ],[
                             InlineKeyboardButton('Movie Cʜᴀɴɴᴇʟ', url=CHNL2_LNK)
