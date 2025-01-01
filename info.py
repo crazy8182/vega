@@ -42,8 +42,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb://admin:admin@localhost:27017/admin")
-DATABASE_NAME = environ.get('DATABASE_NAME', "admin")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://devashi624:devashi624@cluster0.01nzx.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Others
